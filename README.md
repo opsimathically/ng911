@@ -1,21 +1,18 @@
-# Usage
+# DO NOT USE/NOT PRODUCTION READY
 
-- Create a new github repo.
-- Clone it (gh repo clone opsimathically/reponame)
-- Download this as a zip from github.
-- Unpack it in your new repo directory (cp -a /path/to/source/. /path/to/destination/)
-- npm install
-- Unit tests should follow: ./test/your_test_dir/sometest.test.ts
-- use 'npm run test' to run all unit tests at once.
+This code is a working project, it's not even out of alpha, nothing is working, do not use this code till I specify it's working.
 
-# Project Name
+# NG911
 
-Project description.
+NG911 (Next Generation 911) is the comprehensive modernization of the United States’ emergency communications system, transitioning it from legacy, circuit-switched voice networks to a secure, IP-based, data-centric architecture.
+
+This repository is going to be utilized for the purpose of implementing technologies that I discover as I read through the standards.
 
 ## Install
 
 ```bash
-npm install @opsimathically/yourproject
+# NOT FUNCTIONAL YET
+# npm install @opsimathically/ng911
 ```
 
 ## Building from source
@@ -25,7 +22,5 @@ clone this repo, enter directory, and run `npm install` for dev dependencies, th
 `npm run build`.
 
 ## Usage
-
-[See API Reference for documentation](https://github.com/opsimathically/yourproject/docs/)
 
 [See unit tests for more direct usage examples](https://github.com/opsimathically/yourproject/test/index.test.ts)
