@@ -4,7 +4,7 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug Unit Test (Debugs Open File)",
+      "name": "Debug Launch (Build Zod Schemas First)",
       "skipFiles": ["<node_internals>/**"],
       "runtimeExecutable": "tsx",
       "program": "${workspaceFolder}/${relativeFile}",
@@ -13,6 +13,23 @@
       "outFiles": ["${workspaceFolder}/**/*.js"],
       "sourceMaps": true,
       "env": {},
+      "preLaunchTask": "Generate Zod Schemas",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Launch (Don't Build Schema)",
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "tsx",
+      "program": "${workspaceFolder}/${relativeFile}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "sourceMaps": true,
+      "env": {},
+      "preLaunchTask": "Generate Zod Schemas",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
     }
